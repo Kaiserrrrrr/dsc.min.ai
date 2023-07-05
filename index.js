@@ -1,1 +1,1 @@
-var bs=require("./ai/brainshop.js");var dai=require("./ai/deepai.js");var p=prompt("Version");if(p.toLowerCase() === "brainshop"){console.clear();bs()}else if(p.toLowerCase() === "deepai"){console.clear();dai()}else{return;}
+var bs=require("./ai/brainshop.js");var dai=require("./ai/deepai.js");var p=prompt("Version");if(p.toLowerCase() === "brainshop"){console.clear();bs()}else if(p.toLowerCase() === "deepai"){console.clear();dai()}else{process.exit(0)}
